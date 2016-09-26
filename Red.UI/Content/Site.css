@@ -22,3 +22,30 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.site-header {
+    background-color: black;
+    color:red;
+}
+.site-footer {
+}
+
+.site-body{
+    margin-top : 1px;
+}
+
+.site-navi{
+   color:red;
+}
+
+/* Only  desktop styles*/
+@media only screen and (min-width: 768px) {
+    .site-header {
+    background-color:bisque;
+    height:100px;
+}
+    .site-body{
+    margin-top : 50px;
+}
+}
+
